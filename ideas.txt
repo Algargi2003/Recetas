@@ -1,0 +1,7 @@
+Para cuando quiera acceder a cada receta, que se borre toda la pagina y solo se
+muestre la receta
+
+Metodos:
+-muestra todas las recetas
+-borra recetas
+-muestra una receta
