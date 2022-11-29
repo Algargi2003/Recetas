@@ -21,6 +21,14 @@ html,body{
     max-width: 100%;
     margin-right: 0px;
 }
+.l-horizontal{
+    flex-direction: row;
+}
+.ancho-comensales{
+    width: 40px;
+}
 .prueba{
-    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
