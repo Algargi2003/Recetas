@@ -1,6 +1,10 @@
-function sortArray(x,y){
-    if(x.nombreBuscar<y.nombreBuscar){return -1;};
-    if(x.nombreBuscar>y.nombreBuscar){return 1;};
+function sortArray(x, y) {
+    if (x.nombreBuscar < y.nombreBuscar) {
+        return -1;
+    }
+    if (x.nombreBuscar > y.nombreBuscar) {
+        return 1;
+    }
     return 0;
 }
 
@@ -8,9 +12,8 @@ function pintaArticulos() {
     let contenedor = document.getElementById("contenedor");
     let texto = "";
 
-    let nuevalistaRecetas=listaRecetas.sort(sortArray);
+    let nuevalistaRecetas = listaRecetas.sort(sortArray);
     nuevalistaRecetas.forEach((element) => {
-        
         texto += `
         <div class="col">
             <div class="card ">
@@ -42,17 +45,13 @@ function ponFuncionBoton() {
             buscar(receta.nombreBuscar);
         });
     });
-    let botonTodos = document.getElementById("botonTodos");
-    botonTodos.onclick = () =>{
-        pintaArticulos();
-    };
+    
 }
-function obtenerBuscada(){
+function obtenerBuscada() {
     let busqueda = document.getElementById("busqueda").value.toLowerCase();
     buscar(busqueda);
 }
 function buscar(busqueda) {
-    
     let f;
     let cosa;
     listaRecetas.forEach((element) => {
@@ -60,25 +59,23 @@ function buscar(busqueda) {
             f = element;
         }
     });
-    if (busqueda == "todos") {
+    if (busqueda == "") {
         pintaArticulos();
-    } else if(f == undefined){
+    } else if (f == undefined) {
         alert("La receta no existe");
-    }else{
+    } else {
         verSoloUna(f.id);
     }
-    
 }
 
 function verSoloUna(idBuscar) {
     let contenedor = document.getElementById("contenedor");
-    let existe = listaRecetas.findIndex(e=> e.id == idBuscar);
+    let existe = listaRecetas.findIndex((e) => e.id == idBuscar);
     let buscada = listaRecetas.find((e) => e.id == idBuscar);
     let texto;
-    
-    
-        texto += `
-        <div class="col ">
+
+    texto += `
+        <div class="col columnas">
             <div class="card ">
                 <img src="./assets/img/${buscada.nombre}.jpg" class="card-img-top">
                 <div class="card-body">
@@ -87,36 +84,35 @@ function verSoloUna(idBuscar) {
                     <input type="number" placeholder="${buscada.personas}" id="${buscada.id}pers" class="ancho-comensales"></input><button id="boton-pers">H</button>
                     <p class="card-text"><b>Ingredientes:</b></p>
                     <ol>`;
-        // let botonComensales=document.getElementById("boton-pers");
-        // botonComensales.onclick = () =>{
-        //     let infor = document.getElementById(buscada.id+"pers").value;
-        //     console.log(infor);
-        // };
+    // let botonComensales=document.getElementById("boton-pers");
+    // botonComensales.onclick = () =>{
+    //     let infor = document.getElementById(buscada.id+"pers").value;
+    //     console.log(infor);
+    // };
 
-        buscada.ingredientes.forEach((i) => {
-            texto += `
+    buscada.ingredientes.forEach((i) => {
+        texto += `
             
                 <li>${i.nombre}: ${i.cantidad}</li>
             
             `;
-        });
+    });
 
-        texto += `</ol>
+    texto += `</ol>
                 <p class="card-text"><b>Preparación:</b></p>
                 <ol>`;
-        buscada.instrucciones.forEach((x) => {
-            texto += `
+    buscada.instrucciones.forEach((x) => {
+        texto += `
                 <li>${x.info}</li>
             `;
-        });
-                
-        texto+=`</div>
+    });
+
+    texto += `</div>
             </div>
         </div>
         `;
-        contenedor.innerHTML = texto;
-    }
-
+    contenedor.innerHTML = texto;
+}
 
 window.onload = () => {
     pintaArticulos();
