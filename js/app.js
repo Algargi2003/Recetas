@@ -48,7 +48,7 @@ function ponFuncionBoton() {
     
 }
 function obtenerBuscada() {
-    let busqueda = document.getElementById("busqueda").value.toLowerCase();
+    let busqueda = document.getElementById("busqueda").value.toLowerCase().trim();
     buscar(busqueda);
 }
 function buscar(busqueda) {
