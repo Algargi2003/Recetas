@@ -5,7 +5,7 @@ let listaRecetas = [
         "id": 1,
         "nombreBuscar": "galletas",
         "nombre": "Galletas",
-        "descripcion": "Buena",
+        "descripcion": "Las galletas más buenas",
         "tipo": "dulce",
         "tiempoPreparacion": 60,
         "tiempoCocina": 20,

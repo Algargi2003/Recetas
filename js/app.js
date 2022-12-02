@@ -81,7 +81,7 @@ function verSoloUna(idBuscar, comensales) {
                 <div class="card-body">
                     <h5 class="card-title">${buscada.nombre}</h5>
                     <label>Comensales: 
-                    <input type="number" placeholder="${buscada.personas}" min="1" value="${comensales}" id="${buscada.id}pers" class="ancho-comensales"></input><button class=" btn btn-info boton-pers"id="${buscada.id}">H</button>
+                    <input type="number" placeholder="${buscada.personas}" min="1" value="${comensales}" id="${buscada.id}pers" class="ancho-comensales"></input>&nbsp<button class=" btn btn-info boton-pers"id="${buscada.id}">H</button>
                     <p class="card-text"><b>Ingredientes:</b></p>
                     <ol>`;
     
@@ -103,7 +103,10 @@ function verSoloUna(idBuscar, comensales) {
             `;
     });
 
-    texto += `</div>
+    texto += ` </ol><br> <div class="d-flex justify-content-center">
+                    <button id="botonVolv" class=" btn btn-info">Volver</button>
+                </div>
+                </div>
             </div>
         </div>
         `;
@@ -123,10 +126,27 @@ function botonCom(){
             verSoloUna(articulo.id, inputPersonas);
         });
     });
+    let botonVolver = document.getElementById("botonVolv");
+    botonVolver.addEventListener("click", function(){
+        pintaArticulos();
+        document.getElementById("busqueda").value="";
+    })
 }
 
-
+function enterBoton(){
+    let botonBusc = document.getElementById("busqueda");
+    botonBusc.addEventListener("keyup", function(e){
+        if (e.code === 'Enter') {
+            document.getElementById("btn-buscar").click();
+        }
+        
+    });
+    document.getElementById("btn-buscar").onclick = function() {
+        obtenerBuscada();
+    }
+}
 window.onload = () => {
     pintaArticulos();
-
+    enterBoton();
+    
 };
