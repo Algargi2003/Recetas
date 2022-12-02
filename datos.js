@@ -12,37 +12,37 @@ let listaRecetas = [
         "personas": 4,
         "ingredientes": [
             {
-                "cantidad": "62.5",
+                "cantidad": "250",
                 "medida":"gr",
                 "nombre": "Mantequilla temp. ambiente"
             },
             {
-                "cantidad": "62.5",
+                "cantidad": "250",
                 "medida":"gr",
                 "nombre": "Azúcar"
             },
             {
-                "cantidad": "0.25",
+                "cantidad": "1",
                 "medida":"M",
                 "nombre": "Huevo"
             },
             {
-                "cantidad": "162.5",
+                "cantidad": "650",
                 "medida":"gr",
                 "nombre": "Harina"
             },
             {
-                "cantidad": "0.25",
+                "cantidad": "1",
                 "medida":"cdta",
                 "nombre": "Aroma de vainilla"
             },
             {
-                "cantidad": "0.25",
+                "cantidad": "1",
                 "medida":"chorrito",
                 "nombre": "Leche"
             },
             {
-                "cantidad": "2.5",
+                "cantidad": "10",
                 "medida":"gr",
                 "nombre": "Canela"
             }

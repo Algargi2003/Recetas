@@ -75,7 +75,7 @@ function verSoloUna(idBuscar, comensales) {
     let texto;
 
     texto += `
-        <div class="col columnas">
+        <div class=" columnas">
             <div class="card ">
                 <img src="./assets/img/${buscada.nombre}.jpg" class="card-img-top">
                 <div class="card-body">
@@ -89,7 +89,7 @@ function verSoloUna(idBuscar, comensales) {
     buscada.ingredientes.forEach((i) => {
         texto += `
             
-                <li>${i.nombre}: ${i.cantidad*comensales} ${i.medida}</li>
+                <li>${i.nombre}: ${(i.cantidad/buscada.personas)*comensales} ${i.medida}</li>
             
             `;
     });
