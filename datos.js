@@ -1,39 +1,49 @@
+//tipos: dulce, japones, chino, etc...
+
 let listaRecetas = [
     {
         "id": 1,
         "nombreBuscar": "galletas",
         "nombre": "Galletas",
         "descripcion": "Buena",
+        "tipo": "dulce",
         "tiempoPreparacion": 60,
         "tiempoCocina": 20,
         "personas": 4,
         "ingredientes": [
             {
-                "cantidad": "250gr",
+                "cantidad": "62.5",
+                "medida":"gr",
                 "nombre": "Mantequilla temp. ambiente"
             },
             {
-                "cantidad": "250gr",
+                "cantidad": "62.5",
+                "medida":"gr",
                 "nombre": "Azúcar"
             },
             {
-                "cantidad": "1",
+                "cantidad": "0.25",
+                "medida":"M",
                 "nombre": "Huevo"
             },
             {
-                "cantidad": "650gr",
+                "cantidad": "162.5",
+                "medida":"gr",
                 "nombre": "Harina"
             },
             {
-                "cantidad": "1 cdta",
+                "cantidad": "0.25",
+                "medida":"cdta",
                 "nombre": "Aroma de vainilla"
             },
             {
-                "cantidad": "1 chorrito",
+                "cantidad": "0.25",
+                "medida":"chorrito",
                 "nombre": "Leche"
             },
             {
-                "cantidad": "Un poco",
+                "cantidad": "2.5",
+                "medida":"gr",
                 "nombre": "Canela"
             }
         ],
@@ -65,6 +75,7 @@ let listaRecetas = [
         "nombreBuscar": "tortitas",
         "nombre": "Tortitas",
         "descripcion": "Buena",
+        "tipo": "dulce",
         "tiempoPreparacion": 25,
         "tiempoCocina": 10,
         "personas": 4,
@@ -84,35 +95,6 @@ let listaRecetas = [
             {
                 "cantidad": "4",
                 "nombre": "Huevos"
-            },
-            {
-                "cantidad": "4",
-                "nombre": "Huevos"
-            },
-            {
-                "cantidad": "4",
-                "nombre": "Huevos"
-            }
-        ],
-        "instrucciones": [
-            {
-                "id": 1,
-                "info": "En un recipiente pequeño, combina el jugo de naranja"
-            }
-        ]
-    },
-    {
-        "id": 3,
-        "nombreBuscar": "arroz",
-        "nombre": "Arroz",
-        "descripcion": "Buena",
-        "tiempoPreparacion": 25,
-        "tiempoCocina": 10,
-        "personas": 4,
-        "ingredientes": [
-            {
-                "cantidad": "200gr",
-                "nombre": "Harina"
             },
             {
                 "cantidad": "4",

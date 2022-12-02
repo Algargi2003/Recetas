@@ -64,11 +64,11 @@ function buscar(busqueda) {
     } else if (f == undefined) {
         alert("La receta no existe");
     } else {
-        verSoloUna(f.id);
+        verSoloUna(f.id,f.personas);
     }
 }
 
-function verSoloUna(idBuscar) {
+function verSoloUna(idBuscar, comensales) {
     let contenedor = document.getElementById("contenedor");
     let existe = listaRecetas.findIndex((e) => e.id == idBuscar);
     let buscada = listaRecetas.find((e) => e.id == idBuscar);
@@ -81,19 +81,15 @@ function verSoloUna(idBuscar) {
                 <div class="card-body">
                     <h5 class="card-title">${buscada.nombre}</h5>
                     <label>Comensales: 
-                    <input type="number" placeholder="${buscada.personas}" id="${buscada.id}pers" class="ancho-comensales"></input><button id="boton-pers">H</button>
+                    <input type="number" placeholder="${buscada.personas}" min="1" value="${comensales}" id="${buscada.id}pers" class="ancho-comensales"></input><button class=" btn btn-info boton-pers"id="${buscada.id}">H</button>
                     <p class="card-text"><b>Ingredientes:</b></p>
                     <ol>`;
-    // let botonComensales=document.getElementById("boton-pers");
-    // botonComensales.onclick = () =>{
-    //     let infor = document.getElementById(buscada.id+"pers").value;
-    //     console.log(infor);
-    // };
+    
 
     buscada.ingredientes.forEach((i) => {
         texto += `
             
-                <li>${i.nombre}: ${i.cantidad}</li>
+                <li>${i.nombre}: ${i.cantidad*comensales} ${i.medida}</li>
             
             `;
     });
@@ -111,9 +107,26 @@ function verSoloUna(idBuscar) {
             </div>
         </div>
         `;
+        
     contenedor.innerHTML = texto;
+    botonCom();
+
 }
+function botonCom(){
+    let boton = document.getElementsByClassName("boton-pers");
+    let botonesArray = [...boton];
+    
+    botonesArray.forEach((e) => {
+        let articulo = listaRecetas.find((i) => i.id == e.id);
+        e.addEventListener("click", function () {
+            let inputPersonas = document.getElementById(articulo.id+"pers").value;
+            verSoloUna(articulo.id, inputPersonas);
+        });
+    });
+}
+
 
 window.onload = () => {
     pintaArticulos();
+
 };
