@@ -13,7 +13,7 @@
 }
 
 body{
-    background-color: #298DFF;
+    background-color: #FFD487;
 }
 html,body{
     min-width: 100%;
@@ -40,8 +40,20 @@ html,body{
     margin-left: 0px;
     margin-right: 0px;
 }
+.sin-bordes{
+    border: none;
+    background-color: #B7D8FE;
+}
 @media only screen and (max-width: 600px)  {
     #busqueda{
         width: 90px;
+    }
+    .columna-doble{
+        display: grid;
+        grid-template-columns: repeat(2, 200px);
+        justify-content: center;
+    }
+ .micol{
+        gap: 0px;
     }
 }

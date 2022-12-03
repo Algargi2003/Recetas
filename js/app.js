@@ -10,13 +10,14 @@ function sortArray(x, y) {
 
 function pintaArticulos() {
     let contenedor = document.getElementById("contenedor");
-    let texto = "";
+    let texto = `<div class="columna-doble prueba-columna row row-cols-1 row-cols-md-6 g-4">`;
+    //let texto="";
 
     let nuevalistaRecetas = listaRecetas.sort(sortArray);
     nuevalistaRecetas.forEach((element) => {
         texto += `
-        <div class="col">
-            <div class="card ">
+        <div class="col micol">
+            <div class="card sin-bordes">
                 <img src="./assets/img/${element.nombre}.jpg" class="card-img-top">
                 <div class="card-body prueba">
                     <h5 class="card-title">${element.nombre}</h5>
@@ -30,8 +31,10 @@ function pintaArticulos() {
                 </div>
             </div>
         </div>
+        
         `;
     });
+    // texto+=`</div>`;
 
     contenedor.innerHTML = texto;
     ponFuncionBoton();
@@ -76,7 +79,7 @@ function verSoloUna(idBuscar, comensales) {
 
     texto += `
         <div class=" columnas">
-            <div class="card ">
+            <div class="card sin-bordes">
                 <img src="./assets/img/${buscada.nombre}.jpg" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title">${buscada.nombre}</h5>
