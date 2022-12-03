@@ -76,39 +76,74 @@ let listaRecetas = [
         "nombre": "Tortitas",
         "descripcion": "Buena",
         "tipo": "dulce",
-        "tiempoPreparacion": 25,
+        "tiempoPreparacion": 20,
         "tiempoCocina": 10,
         "personas": 4,
         "ingredientes": [
             {
-                "cantidad": "200gr",
+                "cantidad": "200",
+                "medida":"gr",
                 "nombre": "Harina"
             },
             {
-                "cantidad": "4",
-                "nombre": "Huevos"
+                "cantidad": "3",
+                "medida":"cdas.",
+                "nombre": "Azúcar"
             },
             {
                 "cantidad": "4",
-                "nombre": "Huevos"
+                "medida":"M",
+                "nombre": "Huevo"
             },
             {
-                "cantidad": "4",
-                "nombre": "Huevos"
+                "cantidad": "250",
+                "medida":"ml",
+                "nombre": "Leche"
             },
             {
-                "cantidad": "4",
-                "nombre": "Huevos"
+                "cantidad": "30",
+                "medida":"gr",
+                "nombre": "Mantequilla"
             },
             {
-                "cantidad": "4",
-                "nombre": "Huevos"
+                "cantidad": "1",
+                "medida":"pizca",
+                "nombre": "Sal"
+            },
+            {
+                "cantidad": "30",
+                "medida":"gr",
+                "nombre": "Mantequilla engrasar"
             }
         ],
         "instrucciones": [
             {
                 "id": 1,
-                "info": "En un recipiente pequeño, combina el jugo de naranja"
+                "info": "Ponemos a calentar una sartén grande y antiadherente a fuego medio."
+            },
+            {
+                "id": 2,
+                "info": "Separamos las yemas y las claras de los huevos."
+            },
+            {
+                "id": 3,
+                "info": "En un bol grande tamizamos la harina, la sal y el azúcar. Hacemos un hueco en el centro y echamos las yemas, la mantequilla o margarina derretida junto con la leche."
+            },
+            {
+                "id": 4,
+                "info": "Mezclamos con unas varillas, poco a poco, hasta conseguir una masa lisa y densa."
+            },
+            {
+                "id": 5,
+                "info": "Batimos las claras a punto de nieve y se lo incorporamos a la preparación anterior."
+            },
+            {
+                "id": 6,
+                "info": "Cuando la sartén este caliente, pero no en exceso, la engrasamos con un pincel y un poco de margarina."
+            },
+            {
+                "id": 7,
+                "info": "Con una cuchara echamos la masa para hacer las tortitas. Dejamos de 1 a 2 minutos hasta que la masa esté dorada, volteamos con una espátula y dejamos que se dore otro minuto."
             }
         ]
     }
