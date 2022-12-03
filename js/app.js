@@ -17,14 +17,14 @@ function pintaArticulos() {
     nuevalistaRecetas.forEach((element) => {
         texto += `
         <div class="col micol">
-            <div class="card sin-bordes">
+            <div id='${element.id}' class="card sin-bordes">
                 <img src="./assets/img/${element.nombre}.jpg" class="card-img-top">
                 <div class="card-body prueba">
                     <h5 class="card-title">${element.nombre}</h5>
                     <p class="card-text"><b>Descripcion:</b></p>
                     <p class=" card-text">${element.descripcion}</p>
                     
-                    <button id='${element.id}' class="btn-info ">Más info</button>
+                    <button class="btn-info ">Más info</button>
                     `;
 
         texto += `
@@ -40,7 +40,7 @@ function pintaArticulos() {
     ponFuncionBoton();
 }
 function ponFuncionBoton() {
-    let boton = document.getElementsByClassName("btn-info");
+    let boton = document.getElementsByClassName("sin-bordes");
     let botonesArray = [...boton];
     botonesArray.forEach((e) => {
         let receta = listaRecetas.find((i) => i.id == e.id);
@@ -130,6 +130,11 @@ function botonCom(){
     });
     let botonVolver = document.getElementById("botonVolv");
     botonVolver.addEventListener("click", function(){
+        pintaArticulos();
+        document.getElementById("busqueda").value="";
+    });
+    let botonReset = document.getElementById("reinicio");
+    botonReset.addEventListener("click", function(){
         pintaArticulos();
         document.getElementById("busqueda").value="";
     })

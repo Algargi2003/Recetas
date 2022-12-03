@@ -11,7 +11,11 @@
     background-color: #9C6400;
     /* width: 103vw; */
 }
-
+.search{
+    height: 33px;
+    width: 33px;
+    margin-left: 10px;
+}
 body{
     background-color: #FFD487;
 }
