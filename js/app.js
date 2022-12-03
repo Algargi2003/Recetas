@@ -73,9 +73,8 @@ function buscar(busqueda) {
 
 function verSoloUna(idBuscar, comensales) {
     let contenedor = document.getElementById("contenedor");
-    let existe = listaRecetas.findIndex((e) => e.id == idBuscar);
     let buscada = listaRecetas.find((e) => e.id == idBuscar);
-    let texto;
+    let texto="";
 
     texto += `
         <div class=" columnas">
@@ -111,7 +110,7 @@ function verSoloUna(idBuscar, comensales) {
                 </div>
                 </div>
             </div>
-        </div>
+        
         `;
         
     contenedor.innerHTML = texto;
