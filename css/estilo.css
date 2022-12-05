@@ -57,7 +57,7 @@ html,body{
     max-width: 1200px;
     margin: auto;
     display:grid; /*Establecemos el contenedor a grid*/
-    grid-template-columns: repeat(4, 1fr); /*repeat en 4 ya que queremos cuatro columnas y todas del mismo ancho 1fr*/
+     /*repeat en 4 ya que queremos cuatro columnas y todas del mismo ancho 1fr*/
 }
 .micol{
     padding:10px;

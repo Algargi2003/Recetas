@@ -55,20 +55,56 @@ function obtenerBuscada() {
 }
 function buscar(busqueda) {
     let f;
-    let cosa;
+    let cosa=[];
     listaRecetas.forEach((element) => {
-        if (element.nombreBuscar == busqueda) {
+        if (element.nombreBuscar==busqueda) {
             f = element;
+        }else if(element.nombreBuscar.includes(busqueda)&&element.nombreBuscar!=busqueda){
+            cosa.push(element);
         }
     });
     if (busqueda == "") {
         pintaArticulos();
-    } else if (f == undefined) {
-        alert("La receta no existe");
-    } else {
+    }else if(cosa.length>0){
+       verCoincidencias(cosa);
+    }else if(f!=null){
         verSoloUna(f.id,f.personas);
+    }else{
+        alert("La receta no existe");
     }
 }
+function verCoincidencias(lista) {
+    let contenedor = document.getElementById("contenedor");
+    let texto = `<div class="columna-doble prueba-columna row row-cols-1 row-cols-md-6 ">`;
+    //let texto="";
+
+    let nuevalistaRecetas = lista.sort(sortArray);
+    nuevalistaRecetas.forEach((element) => {
+        texto += `
+        <div class="col micol">
+            <div id='${element.id}' class="card sin-bordes">
+                <img src="./assets/img/${element.nombreBuscar}.jpg" class="card-img-top">
+                <div class="card-body prueba">
+                    <h5 class="card-title texto-reloj">${element.nombre}</h5>
+                    <p class=" texto-reloj"><img src="./assets/icons/wall-clock.ico" class="icono-reloj"> ${element.tiempoPreparacion} min</p>
+                    
+                    <button class="btn-info boton-fondo">Más info</button>
+                    `;
+
+        texto += `
+                </div>
+            </div>
+        </div>
+        
+        `;
+    });
+    // texto+=`</div>`;
+
+    contenedor.innerHTML = texto;
+    ponFuncionBoton();
+    
+}
+
 
 function verSoloUna(idBuscar, comensales) {
     let contenedor = document.getElementById("contenedor");

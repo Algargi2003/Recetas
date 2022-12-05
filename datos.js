@@ -4,7 +4,7 @@ let listaRecetas = [
     {
         "id": 1,
         "nombreBuscar": "galletas",
-        "nombre": "Galletas",
+        "nombre": "Galletas de mantequilla",
         "descripcion": "Buenas",
         "tipo": "dulce",
         "tiempoPreparacion": 60,
@@ -73,7 +73,7 @@ let listaRecetas = [
     {
         "id": 2,
         "nombreBuscar": "tortitas",
-        "nombre": "Tortitas",
+        "nombre": "Tortitas americanas",
         "descripcion": "Buena",
         "tipo": "dulce",
         "tiempoPreparacion": 20,
@@ -150,7 +150,7 @@ let listaRecetas = [
     {
         "id": 3,
         "nombreBuscar": "tartaDeQuesoFria",
-        "nombre": "Tarta de queso",
+        "nombre": "Tarta de queso fría",
         "descripcion": "Buena",
         "tipo": "tartas sin horno",
         "tiempoPreparacion": 30,
