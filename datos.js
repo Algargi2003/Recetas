@@ -149,7 +149,7 @@ let listaRecetas = [
     },
     {
         "id": 3,
-        "nombreBuscar": "tartaDeQuesoFria",
+        "nombreBuscar": "tartadeQuesofria",
         "nombre": "Tarta de queso",
         "descripcion": "Buena",
         "tipo": "tartas sin horno",
@@ -217,7 +217,7 @@ let listaRecetas = [
     },
     {
         "id": 4,
-        "nombreBuscar": "helicesConVinagreta",
+        "nombreBuscar": "helicesconvinagreta",
         "nombre": "Hélices con Vinagreta",
         "descripcion": "Ensalada pasta",
         "tipo": "pasta",
@@ -303,7 +303,7 @@ let listaRecetas = [
     },
     {
         "id": 5,
-        "nombreBuscar": "tortelliniConQuesoYLonganizas",
+        "nombreBuscar": "tortelliniconquesoylonganizas",
         "nombre": "Tortellinis con longaniza",
         "descripcion": "Pasta buena",
         "tipo": "pasta",
