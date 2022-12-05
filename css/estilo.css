@@ -40,7 +40,9 @@ html,body{
     flex-direction: column;
     justify-content: center;
 }
-
+.boton-fondo{
+    bottom: 0;
+}
 .prueba-columna{
     margin-left: 0px;
     margin-right: 0px;
@@ -48,18 +50,31 @@ html,body{
 .sin-bordes{
     border: none;
     background-color: #B7D8FE;
+    height: 100%;
 }
-@media only screen and (max-width: 600px)  {
+
+.columna-doble{
+    max-width: 1200px;
+    margin: auto;
+    display:grid; /*Establecemos el contenedor a grid*/
+    grid-template-columns: repeat(4, 1fr); /*repeat en 4 ya que queremos cuatro columnas y todas del mismo ancho 1fr*/
+}
+.micol{
+    padding:10px;
+    box-sizing: border-box;
+   
+}
+.micol .card-img-top{
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 600px)  {
     #busqueda{
         width: 90px;
     }
     .columna-doble{
-        display: grid;
-        grid-template-columns: repeat(2, 200px);
-        justify-content: center;
-    }
- .micol{
-        gap: 0px;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 

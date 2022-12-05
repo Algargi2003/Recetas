@@ -10,7 +10,7 @@ function sortArray(x, y) {
 
 function pintaArticulos() {
     let contenedor = document.getElementById("contenedor");
-    let texto = `<div class="columna-doble prueba-columna row row-cols-1 row-cols-md-6 g-4">`;
+    let texto = `<div class="columna-doble prueba-columna row row-cols-1 row-cols-md-6 ">`;
     //let texto="";
 
     let nuevalistaRecetas = listaRecetas.sort(sortArray);
@@ -23,7 +23,7 @@ function pintaArticulos() {
                     <h5 class="card-title texto-reloj">${element.nombre}</h5>
                     <p class=" texto-reloj"><img src="./assets/icons/wall-clock.ico" class="icono-reloj"> ${element.tiempoPreparacion} min</p>
                     
-                    <button class="btn-info ">Más info</button>
+                    <button class="btn-info boton-fondo">Más info</button>
                     `;
 
         texto += `
