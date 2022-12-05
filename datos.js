@@ -214,149 +214,163 @@ let listaRecetas = [
                 "info": "La sacamos y podemos decorarla por encima con mermelada al gusto."
             }
         ]
-    }/*,
+    },
     {
         "id": 4,
         "nombreBuscar": "helicesConVinagreta",
         "nombre": "Hélices con Vinagreta",
-        "descripcion": "",
-        "tipo": "",
-        "tiempoPreparacion": 20,
+        "descripcion": "Ensalada pasta",
+        "tipo": "pasta",
+        "tiempoPreparacion": 10,
         "tiempoCocina": 10,
         "personas": 4,
         "ingredientes": [
             {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
+                "cantidad": "400",
+                "medida":"gr",
+                "nombre": "Hélices vegetales"
             },
             {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
+                "cantidad": "1",
+                "medida":"lata",
+                "nombre": "Maíz dulce"
             },
             {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
+                "cantidad": "1",
+                "medida":"lata",
+                "nombre": "Guisantes"
             },
             {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
+                "cantidad": "1",
+                "medida":"lata",
+                "nombre": "Olivas rellenas"
             },
             {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
+                "cantidad": "4",
+                "medida":"unidades",
+                "nombre": "Anchoas"
             },
             {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
+                "cantidad": "2",
+                "medida":"M",
+                "nombre": "Huevos picados"
             },
             {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
+                "cantidad": "1",
+                "medida":"o más",
+                "nombre": "Lechuga"
+            },
+            {
+                "cantidad": "3",
+                "medida":"cucharadas",
+                "nombre": "Vinagre de manzana (para salsa)"
+            },
+            {
+                "cantidad": "1",
+                "medida":"cda",
+                "nombre": "Azúcar"
+            },
+            {
+                "cantidad": "1",
+                "medida":"cda",
+                "nombre": "Mostaza"
+            },
+            {
+                "cantidad": "1",
+                "medida":"pizca",
+                "nombre": "Sal"
+            },
+            {
+                "cantidad": "6",
+                "medida":"cdas",
+                "nombre": "Aceite de oliva"
             }
         ],
         "instrucciones": [
             {
                 "id": 1,
-                "info": ""
+                "info": "Hervimos las hélices durante los minutos que nos indique el fabricante, en agua hirviendo con sal. Mientras podemos cocer también los huevos ( para que estén en su punto exacto de cocción los cocemos 10 minutos )"
             },
             {
                 "id": 2,
-                "info": ""
+                "info": "Preparamos todos los ingredientes de la salsa en un bote con tapa y los movemos enérgicamente."
             },
             {
                 "id": 3,
-                "info": ""
-            },
-            {
-                "id": 4,
-                "info": ""
-            },
-            {
-                "id": 5,
-                "info": ""
+                "info": "En un bol vamos añadiendo todos los ingredientes, junto con las hélices, los huevos y la salsa. Lo removemos bien y ya está listo para servir."
             }
-
-            
         ]
     },
     {
-        "id": 4,
-        "nombreBuscar": "",
-        "nombre": "",
-        "descripcion": "",
-        "tipo": "",
-        "tiempoPreparacion": 20,
+        "id": 5,
+        "nombreBuscar": "tortelliniConQuesoYLonganizas",
+        "nombre": "Tortellinis con longaniza",
+        "descripcion": "Pasta buena",
+        "tipo": "pasta",
+        "tiempoPreparacion": 40,
         "tiempoCocina": 10,
         "personas": 4,
         "ingredientes": [
             {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
+                "cantidad": "350",
+                "medida":"gr",
+                "nombre": "Tortellinis"
             },
             {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
+                "cantidad": "50",
+                "medida":"gr",
+                "nombre": "Mantequilla"
             },
             {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
+                "cantidad": "500",
+                "medida":"gr",
+                "nombre": "Longanizas"
             },
             {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
+                "cantidad": "1",
+                "medida":"entera",
+                "nombre": "Cebolla"
             },
             {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
+                "cantidad": "1",
+                "medida":"entera",
+                "nombre": "Manzana golden"
             },
             {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
+                "cantidad": "3",
+                "medida":"enteros",
+                "nombre": "Tomates maduros"
             }
         ],
         "instrucciones": [
             {
                 "id": 1,
-                "info": ""
+                "info": "Hervir la pasta el tiempo indicado por el fabricante."
             },
             {
                 "id": 2,
-                "info": ""
+                "info": "En una sartén fundimos la mantequilla y añadimos las longanizas cortadas a trocitos no muy grandes. Una vez doradas las sacamos de la sartén y reservamos."
             },
             {
                 "id": 3,
-                "info": ""
+                "info": "En la misma sartén para aprovechar la grasita de las longanizas pochamos lentamente la cebolla para que caramelice."
             },
             {
                 "id": 4,
-                "info": ""
+                "info": "Cuando ya esté doradita la cebolla añadimos la manzana a trocitos y le damos una vueltecitas para que se dore un poquito."
             },
             {
                 "id": 5,
-                "info": ""
+                "info": "Una vez doradita le añadimos los tomates, salpimentamos y añadimos una cucharadita de azúcar para quitar la acidez de los tomates. Dejamos que se hagan a fuego lento durante unos 20 minutos."
+            },
+            {
+                "id": 6,
+                "info": "Cuando veamos que la salsa ya está hecha añadimos las longanizas y la pasta. Le damos unas vueltas y servimos. Podemos añadir por encima un poco de orégano, albahaca fresca o seca, esto ya queda al gusto del consumidor."
             }
 
             
         ]
-    },
+    }/*,
     {
         "id": 4,
         "nombreBuscar": "",
