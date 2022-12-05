@@ -56,7 +56,11 @@ html,body{
 .columna-doble{
     max-width: 1200px;
     margin: auto;
-    display:grid; /*Establecemos el contenedor a grid*/
+    display:grid; 
+    .columna-doble{
+        grid-template-columns: repeat(5, 1fr);
+    }
+/*Establecemos el contenedor a grid*/
      /*repeat en 4 ya que queremos cuatro columnas y todas del mismo ancho 1fr*/
 }
 .micol{
