@@ -22,9 +22,12 @@ body{
 html,body{
     min-width: 100%;
 }
-.todo{
-    max-width: 100%;
-    margin-right: 0px;
+.icono-reloj{
+    height: 20px;
+    width: 20px;
+}
+.texto-reloj{
+    color: #298DFF;
 }
 .l-horizontal{
     flex-direction: row;
@@ -59,3 +62,26 @@ html,body{
         gap: 0px;
     }
 }
+
+
+@media (min-width:320px)  { 
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+    /* .todo{
+        width: 400px;
+    } */
+     }
+    @media (min-width:480px)  { 
+    /* smartphones, Android phones, landscape iPhone */ 
+    }
+    @media (min-width:600px)  { 
+    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
+    }
+    @media (min-width:801px)  { 
+    /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    }
+    @media (min-width:1025px) { 
+    /* big landscape tablets, laptops, and desktops */ 
+    }
+    @media (min-width:1281px) { 
+    /* hi-res laptops and desktops */ 
+    }

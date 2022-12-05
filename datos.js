@@ -1,11 +1,11 @@
-//tipos: dulce, japones, chino, etc...
+//tipos: dulce, japones, chino, shushi, etc...
 
 let listaRecetas = [
     {
         "id": 1,
         "nombreBuscar": "galletas",
         "nombre": "Galletas",
-        "descripcion": "Galletas buenas",
+        "descripcion": "Buenas",
         "tipo": "dulce",
         "tiempoPreparacion": 60,
         "tiempoCocina": 20,
@@ -148,311 +148,639 @@ let listaRecetas = [
         ]
     },
     {
-        "id": 2,
-        "nombreBuscar": "tortitas",
-        "nombre": "Tortitas",
+        "id": 3,
+        "nombreBuscar": "tartaDeQuesoFria",
+        "nombre": "Tarta de queso",
         "descripcion": "Buena",
-        "tipo": "dulce",
-        "tiempoPreparacion": 20,
-        "tiempoCocina": 10,
+        "tipo": "tartas sin horno",
+        "tiempoPreparacion": 30,
+        "tiempoCocina": 360,
         "personas": 4,
         "ingredientes": [
             {
-                "cantidad": "200",
+                "cantidad": "300",
                 "medida":"gr",
-                "nombre": "Harina"
+                "nombre": "Queso de untar"
             },
             {
-                "cantidad": "3",
-                "medida":"cdas.",
-                "nombre": "Azúcar"
-            },
-            {
-                "cantidad": "4",
-                "medida":"M",
-                "nombre": "Huevo"
-            },
-            {
-                "cantidad": "250",
+                "cantidad": "400",
                 "medida":"ml",
-                "nombre": "Leche"
+                "nombre": "Nata líquida para montar"
             },
             {
-                "cantidad": "30",
+                "cantidad": "24",
                 "medida":"gr",
-                "nombre": "Mantequilla"
+                "nombre": "Cuajada (2 sobres)"
             },
             {
                 "cantidad": "1",
-                "medida":"pizca",
-                "nombre": "Sal"
+                "medida":"paquete",
+                "nombre": "Galletas maria"
             },
             {
-                "cantidad": "30",
-                "medida":"gr",
-                "nombre": "Mantequilla engrasar"
+                "cantidad": "1",
+                "medida":"vaso",
+                "nombre": "Azúcar (200 gr?)"
+            },
+            {
+                "cantidad": "1",
+                "medida":"vaso",
+                "nombre": "Leche"
             }
         ],
         "instrucciones": [
             {
                 "id": 1,
-                "info": "Ponemos a calentar una sartén grande y antiadherente a fuego medio."
+                "info": "Preparamos un molde con las galletas trituradas mezcladas con mantequilla o en su defecto con las soletillas (mojadas en un poco de leche)"
             },
             {
                 "id": 2,
-                "info": "Separamos las yemas y las claras de los huevos."
+                "info": "Batimos en un bol el queso, la nata, el azúcar y la leche (reservando un poco para disolver la cuajada)"
             },
             {
                 "id": 3,
-                "info": "En un bol grande tamizamos la harina, la sal y el azúcar. Hacemos un hueco en el centro y echamos las yemas, la mantequilla o margarina derretida junto con la leche."
+                "info": "Una vez esté bien batido, lo pondremos al fuego dándole vueltas durante 2 ó 3 minutos."
             },
             {
                 "id": 4,
-                "info": "Mezclamos con unas varillas, poco a poco, hasta conseguir una masa lisa y densa."
+                "info": "Cuando empiece a hervir añadimos la cuajada, anteriormente disuelta en un poco de leche. Continuamos dando unas vueltas durante un minuto más o menos. Y lo vertemos en el molde donde tenemos preparadas las galletas."
             },
             {
                 "id": 5,
-                "info": "Batimos las claras a punto de nieve y se lo incorporamos a la preparación anterior."
+                "info": "Lo dejamos enfriar y la ponemos en la nevera tapada con papel film durante un mínimo de 6 horas."
             },
             {
                 "id": 6,
-                "info": "Cuando la sartén este caliente, pero no en exceso, la engrasamos con un pincel y un poco de margarina."
+                "info": "La sacamos y podemos decorarla por encima con mermelada al gusto."
+            }
+        ]
+    }/*,
+    {
+        "id": 4,
+        "nombreBuscar": "helicesConVinagreta",
+        "nombre": "Hélices con Vinagreta",
+        "descripcion": "",
+        "tipo": "",
+        "tiempoPreparacion": 20,
+        "tiempoCocina": 10,
+        "personas": 4,
+        "ingredientes": [
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
             },
             {
-                "id": 7,
-                "info": "Con una cuchara echamos la masa para hacer las tortitas. Dejamos de 1 a 2 minutos hasta que la masa esté dorada, volteamos con una espátula y dejamos que se dore otro minuto."
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
             }
+        ],
+        "instrucciones": [
+            {
+                "id": 1,
+                "info": ""
+            },
+            {
+                "id": 2,
+                "info": ""
+            },
+            {
+                "id": 3,
+                "info": ""
+            },
+            {
+                "id": 4,
+                "info": ""
+            },
+            {
+                "id": 5,
+                "info": ""
+            }
+
+            
         ]
     },
     {
-        "id": 2,
-        "nombreBuscar": "tortitas",
-        "nombre": "Tortitas",
-        "descripcion": "Buena",
-        "tipo": "dulce",
+        "id": 4,
+        "nombreBuscar": "",
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "",
         "tiempoPreparacion": 20,
         "tiempoCocina": 10,
         "personas": 4,
         "ingredientes": [
             {
-                "cantidad": "200",
-                "medida":"gr",
-                "nombre": "Harina"
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
             },
             {
-                "cantidad": "3",
-                "medida":"cdas.",
-                "nombre": "Azúcar"
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
             },
             {
-                "cantidad": "4",
-                "medida":"M",
-                "nombre": "Huevo"
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
             },
             {
-                "cantidad": "250",
-                "medida":"ml",
-                "nombre": "Leche"
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
             },
             {
-                "cantidad": "30",
-                "medida":"gr",
-                "nombre": "Mantequilla"
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
             },
             {
-                "cantidad": "1",
-                "medida":"pizca",
-                "nombre": "Sal"
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
             },
             {
-                "cantidad": "30",
-                "medida":"gr",
-                "nombre": "Mantequilla engrasar"
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
             }
         ],
         "instrucciones": [
             {
                 "id": 1,
-                "info": "Ponemos a calentar una sartén grande y antiadherente a fuego medio."
+                "info": ""
             },
             {
                 "id": 2,
-                "info": "Separamos las yemas y las claras de los huevos."
+                "info": ""
             },
             {
                 "id": 3,
-                "info": "En un bol grande tamizamos la harina, la sal y el azúcar. Hacemos un hueco en el centro y echamos las yemas, la mantequilla o margarina derretida junto con la leche."
+                "info": ""
             },
             {
                 "id": 4,
-                "info": "Mezclamos con unas varillas, poco a poco, hasta conseguir una masa lisa y densa."
+                "info": ""
             },
             {
                 "id": 5,
-                "info": "Batimos las claras a punto de nieve y se lo incorporamos a la preparación anterior."
-            },
-            {
-                "id": 6,
-                "info": "Cuando la sartén este caliente, pero no en exceso, la engrasamos con un pincel y un poco de margarina."
-            },
-            {
-                "id": 7,
-                "info": "Con una cuchara echamos la masa para hacer las tortitas. Dejamos de 1 a 2 minutos hasta que la masa esté dorada, volteamos con una espátula y dejamos que se dore otro minuto."
+                "info": ""
             }
+
+            
         ]
     },
     {
-        "id": 2,
-        "nombreBuscar": "tortitas",
-        "nombre": "Tortitas",
-        "descripcion": "Buena",
-        "tipo": "dulce",
+        "id": 4,
+        "nombreBuscar": "",
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "",
         "tiempoPreparacion": 20,
         "tiempoCocina": 10,
         "personas": 4,
         "ingredientes": [
             {
-                "cantidad": "200",
-                "medida":"gr",
-                "nombre": "Harina"
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
             },
             {
-                "cantidad": "3",
-                "medida":"cdas.",
-                "nombre": "Azúcar"
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
             },
             {
-                "cantidad": "4",
-                "medida":"M",
-                "nombre": "Huevo"
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
             },
             {
-                "cantidad": "250",
-                "medida":"ml",
-                "nombre": "Leche"
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
             },
             {
-                "cantidad": "30",
-                "medida":"gr",
-                "nombre": "Mantequilla"
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
             },
             {
-                "cantidad": "1",
-                "medida":"pizca",
-                "nombre": "Sal"
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
             },
             {
-                "cantidad": "30",
-                "medida":"gr",
-                "nombre": "Mantequilla engrasar"
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
             }
         ],
         "instrucciones": [
             {
                 "id": 1,
-                "info": "Ponemos a calentar una sartén grande y antiadherente a fuego medio."
+                "info": ""
             },
             {
                 "id": 2,
-                "info": "Separamos las yemas y las claras de los huevos."
+                "info": ""
             },
             {
                 "id": 3,
-                "info": "En un bol grande tamizamos la harina, la sal y el azúcar. Hacemos un hueco en el centro y echamos las yemas, la mantequilla o margarina derretida junto con la leche."
+                "info": ""
             },
             {
                 "id": 4,
-                "info": "Mezclamos con unas varillas, poco a poco, hasta conseguir una masa lisa y densa."
+                "info": ""
             },
             {
                 "id": 5,
-                "info": "Batimos las claras a punto de nieve y se lo incorporamos a la preparación anterior."
-            },
-            {
-                "id": 6,
-                "info": "Cuando la sartén este caliente, pero no en exceso, la engrasamos con un pincel y un poco de margarina."
-            },
-            {
-                "id": 7,
-                "info": "Con una cuchara echamos la masa para hacer las tortitas. Dejamos de 1 a 2 minutos hasta que la masa esté dorada, volteamos con una espátula y dejamos que se dore otro minuto."
+                "info": ""
             }
+
+            
         ]
     },
     {
-        "id": 2,
-        "nombreBuscar": "tortitas",
-        "nombre": "Tortitas",
-        "descripcion": "Buena",
-        "tipo": "dulce",
+        "id": 4,
+        "nombreBuscar": "",
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "",
         "tiempoPreparacion": 20,
         "tiempoCocina": 10,
         "personas": 4,
         "ingredientes": [
             {
-                "cantidad": "200",
-                "medida":"gr",
-                "nombre": "Harina"
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
             },
             {
-                "cantidad": "3",
-                "medida":"cdas.",
-                "nombre": "Azúcar"
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
             },
             {
-                "cantidad": "4",
-                "medida":"M",
-                "nombre": "Huevo"
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
             },
             {
-                "cantidad": "250",
-                "medida":"ml",
-                "nombre": "Leche"
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
             },
             {
-                "cantidad": "30",
-                "medida":"gr",
-                "nombre": "Mantequilla"
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
             },
             {
-                "cantidad": "1",
-                "medida":"pizca",
-                "nombre": "Sal"
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
             },
             {
-                "cantidad": "30",
-                "medida":"gr",
-                "nombre": "Mantequilla engrasar"
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
             }
         ],
         "instrucciones": [
             {
                 "id": 1,
-                "info": "Ponemos a calentar una sartén grande y antiadherente a fuego medio."
+                "info": ""
             },
             {
                 "id": 2,
-                "info": "Separamos las yemas y las claras de los huevos."
+                "info": ""
             },
             {
                 "id": 3,
-                "info": "En un bol grande tamizamos la harina, la sal y el azúcar. Hacemos un hueco en el centro y echamos las yemas, la mantequilla o margarina derretida junto con la leche."
+                "info": ""
             },
             {
                 "id": 4,
-                "info": "Mezclamos con unas varillas, poco a poco, hasta conseguir una masa lisa y densa."
+                "info": ""
             },
             {
                 "id": 5,
-                "info": "Batimos las claras a punto de nieve y se lo incorporamos a la preparación anterior."
-            },
-            {
-                "id": 6,
-                "info": "Cuando la sartén este caliente, pero no en exceso, la engrasamos con un pincel y un poco de margarina."
-            },
-            {
-                "id": 7,
-                "info": "Con una cuchara echamos la masa para hacer las tortitas. Dejamos de 1 a 2 minutos hasta que la masa esté dorada, volteamos con una espátula y dejamos que se dore otro minuto."
+                "info": ""
             }
+
+            
         ]
-    }
+    },
+    {
+        "id": 4,
+        "nombreBuscar": "",
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "",
+        "tiempoPreparacion": 20,
+        "tiempoCocina": 10,
+        "personas": 4,
+        "ingredientes": [
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            }
+        ],
+        "instrucciones": [
+            {
+                "id": 1,
+                "info": ""
+            },
+            {
+                "id": 2,
+                "info": ""
+            },
+            {
+                "id": 3,
+                "info": ""
+            },
+            {
+                "id": 4,
+                "info": ""
+            },
+            {
+                "id": 5,
+                "info": ""
+            }
+
+            
+        ]
+    },
+    {
+        "id": 4,
+        "nombreBuscar": "",
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "",
+        "tiempoPreparacion": 20,
+        "tiempoCocina": 10,
+        "personas": 4,
+        "ingredientes": [
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            }
+        ],
+        "instrucciones": [
+            {
+                "id": 1,
+                "info": ""
+            },
+            {
+                "id": 2,
+                "info": ""
+            },
+            {
+                "id": 3,
+                "info": ""
+            },
+            {
+                "id": 4,
+                "info": ""
+            },
+            {
+                "id": 5,
+                "info": ""
+            }
+
+            
+        ]
+    },
+    {
+        "id": 4,
+        "nombreBuscar": "",
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "",
+        "tiempoPreparacion": 20,
+        "tiempoCocina": 10,
+        "personas": 4,
+        "ingredientes": [
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            }
+        ],
+        "instrucciones": [
+            {
+                "id": 1,
+                "info": ""
+            },
+            {
+                "id": 2,
+                "info": ""
+            },
+            {
+                "id": 3,
+                "info": ""
+            },
+            {
+                "id": 4,
+                "info": ""
+            },
+            {
+                "id": 5,
+                "info": ""
+            }
+
+            
+        ]
+    },
+    {
+        "id": 4,
+        "nombreBuscar": "",
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "",
+        "tiempoPreparacion": 20,
+        "tiempoCocina": 10,
+        "personas": 4,
+        "ingredientes": [
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            }
+        ],
+        "instrucciones": [
+            {
+                "id": 1,
+                "info": ""
+            },
+            {
+                "id": 2,
+                "info": ""
+            },
+            {
+                "id": 3,
+                "info": ""
+            },
+            {
+                "id": 4,
+                "info": ""
+            },
+            {
+                "id": 5,
+                "info": ""
+            }
+
+            
+        ]
+    }*/
 ]

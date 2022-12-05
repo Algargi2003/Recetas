@@ -18,11 +18,10 @@ function pintaArticulos() {
         texto += `
         <div class="col micol">
             <div id='${element.id}' class="card sin-bordes">
-                <img src="./assets/img/${element.nombre}.jpg" class="card-img-top">
+                <img src="./assets/img/${element.nombreBuscar}.jpg" class="card-img-top">
                 <div class="card-body prueba">
-                    <h5 class="card-title">${element.nombre}</h5>
-                    <p class="card-text"><b>Descripcion:</b></p>
-                    <p class=" card-text">${element.descripcion}</p>
+                    <h5 class="card-title texto-reloj">${element.nombre}</h5>
+                    <p class=" texto-reloj"><img src="./assets/icons/wall-clock.ico" class="icono-reloj"> ${element.tiempoPreparacion} min</p>
                     
                     <button class="btn-info ">Más info</button>
                     `;
@@ -79,7 +78,7 @@ function verSoloUna(idBuscar, comensales) {
     texto += `
         <div class=" columnas">
             <div class="card sin-bordes">
-                <img src="./assets/img/${buscada.nombre}.jpg" class="card-img-top">
+                <img src="./assets/img/${buscada.nombreBuscar}.jpg" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title">${buscada.nombre}</h5>
                     <label>Comensales: 
