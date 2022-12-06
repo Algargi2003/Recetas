@@ -55,9 +55,9 @@ html,body{
 
 .columna-doble{
     max-width: 1200px;
-    margin: auto;
-    display:grid; /*Establecemos el contenedor a grid*/
-     /*repeat en 4 ya que queremos cuatro columnas y todas del mismo ancho 1fr*/
+    margin-left: 0;
+    display:grid;
+    grid-template-columns: repeat(6, 1fr); 
 }
 .micol{
     padding:10px;
@@ -74,6 +74,7 @@ html,body{
         width: 90px;
     }
     .columna-doble{
+        margin: auto;
         grid-template-columns: repeat(2, 1fr);
     }
 }
@@ -100,3 +101,9 @@ html,body{
     @media (min-width:1281px) { 
     /* hi-res laptops and desktops */ 
     }
+
+
+
+
+
+    

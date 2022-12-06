@@ -10,7 +10,7 @@ function sortArray(x, y) {
 
 function pintaArticulos() {
     let contenedor = document.getElementById("contenedor");
-    let texto = `<div class="columna-doble prueba-columna row row-cols-1 row-cols-md-6 ">`;
+    let texto = `<div class="columna-doble prueba-columna row row-cols-1  ">`;
     //let texto="";
 
     let nuevalistaRecetas = listaRecetas.sort(sortArray);
@@ -75,7 +75,7 @@ function buscar(busqueda) {
 }
 function verCoincidencias(lista) {
     let contenedor = document.getElementById("contenedor");
-    let texto = `<div class="columna-doble prueba-columna row row-cols-1 row-cols-md-6 ">`;
+    let texto = `<div class="columna-doble prueba-columna row row-cols-1  ">`;
     //let texto="";
 
     let nuevalistaRecetas = lista.sort(sortArray);

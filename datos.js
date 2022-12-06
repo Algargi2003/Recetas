@@ -370,7 +370,7 @@ let listaRecetas = [
 
             
         ]
-    }/*,
+    },
     {
         "id": 4,
         "nombreBuscar": "",
@@ -441,7 +441,7 @@ let listaRecetas = [
 
             
         ]
-    },
+    }/*,
     {
         "id": 4,
         "nombreBuscar": "",
