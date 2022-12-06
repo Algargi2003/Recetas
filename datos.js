@@ -796,5 +796,425 @@ let listaRecetas = [
 
             
         ]
+    }{
+        "id": 4,
+        "nombreBuscar": "",
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "",
+        "tiempoPreparacion": 20,
+        "tiempoCocina": 10,
+        "personas": 4,
+        "ingredientes": [
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            }
+        ],
+        "instrucciones": [
+            {
+                "id": 1,
+                "info": ""
+            },
+            {
+                "id": 2,
+                "info": ""
+            },
+            {
+                "id": 3,
+                "info": ""
+            },
+            {
+                "id": 4,
+                "info": ""
+            },
+            {
+                "id": 5,
+                "info": ""
+            }
+
+            
+        ]
+    }{
+        "id": 4,
+        "nombreBuscar": "",
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "",
+        "tiempoPreparacion": 20,
+        "tiempoCocina": 10,
+        "personas": 4,
+        "ingredientes": [
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            }
+        ],
+        "instrucciones": [
+            {
+                "id": 1,
+                "info": ""
+            },
+            {
+                "id": 2,
+                "info": ""
+            },
+            {
+                "id": 3,
+                "info": ""
+            },
+            {
+                "id": 4,
+                "info": ""
+            },
+            {
+                "id": 5,
+                "info": ""
+            }
+
+            
+        ]
+    }{
+        "id": 4,
+        "nombreBuscar": "",
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "",
+        "tiempoPreparacion": 20,
+        "tiempoCocina": 10,
+        "personas": 4,
+        "ingredientes": [
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            }
+        ],
+        "instrucciones": [
+            {
+                "id": 1,
+                "info": ""
+            },
+            {
+                "id": 2,
+                "info": ""
+            },
+            {
+                "id": 3,
+                "info": ""
+            },
+            {
+                "id": 4,
+                "info": ""
+            },
+            {
+                "id": 5,
+                "info": ""
+            }
+
+            
+        ]
+    }{
+        "id": 4,
+        "nombreBuscar": "",
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "",
+        "tiempoPreparacion": 20,
+        "tiempoCocina": 10,
+        "personas": 4,
+        "ingredientes": [
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            }
+        ],
+        "instrucciones": [
+            {
+                "id": 1,
+                "info": ""
+            },
+            {
+                "id": 2,
+                "info": ""
+            },
+            {
+                "id": 3,
+                "info": ""
+            },
+            {
+                "id": 4,
+                "info": ""
+            },
+            {
+                "id": 5,
+                "info": ""
+            }
+
+            
+        ]
+    }{
+        "id": 4,
+        "nombreBuscar": "",
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "",
+        "tiempoPreparacion": 20,
+        "tiempoCocina": 10,
+        "personas": 4,
+        "ingredientes": [
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            }
+        ],
+        "instrucciones": [
+            {
+                "id": 1,
+                "info": ""
+            },
+            {
+                "id": 2,
+                "info": ""
+            },
+            {
+                "id": 3,
+                "info": ""
+            },
+            {
+                "id": 4,
+                "info": ""
+            },
+            {
+                "id": 5,
+                "info": ""
+            }
+
+            
+        ]
+    }{
+        "id": 4,
+        "nombreBuscar": "",
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "",
+        "tiempoPreparacion": 20,
+        "tiempoCocina": 10,
+        "personas": 4,
+        "ingredientes": [
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            },
+            {
+                "cantidad": "",
+                "medida":"",
+                "nombre": ""
+            }
+        ],
+        "instrucciones": [
+            {
+                "id": 1,
+                "info": ""
+            },
+            {
+                "id": 2,
+                "info": ""
+            },
+            {
+                "id": 3,
+                "info": ""
+            },
+            {
+                "id": 4,
+                "info": ""
+            },
+            {
+                "id": 5,
+                "info": ""
+            }
+
+            
+        ]
     }*/
 ]
