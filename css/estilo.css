@@ -55,9 +55,19 @@ html,body{
 
 .columna-doble{
     max-width: 1200px;
+<<<<<<< HEAD
     margin-left: 0;
     display:grid;
     grid-template-columns: repeat(6, 1fr); 
+=======
+    margin: auto;
+    display:grid; 
+    .columna-doble{
+        grid-template-columns: repeat(5, 1fr);
+    }
+/*Establecemos el contenedor a grid*/
+     /*repeat en 4 ya que queremos cuatro columnas y todas del mismo ancho 1fr*/
+>>>>>>> 9e0f34f31292da53eb1343319c44ab17d0c5caba
 }
 .micol{
     padding:10px;
@@ -101,9 +111,12 @@ html,body{
     @media (min-width:1281px) { 
     /* hi-res laptops and desktops */ 
     }
+<<<<<<< HEAD
 
 
 
 
 
     
+=======
+>>>>>>> 9e0f34f31292da53eb1343319c44ab17d0c5caba
