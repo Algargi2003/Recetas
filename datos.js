@@ -370,9 +370,9 @@ let listaRecetas = [
 
             
         ]
-    },
+    }/*,
     {
-        "id": 4,
+        "id": 6,
         "nombreBuscar": "",
         "nombre": "",
         "descripcion": "",
@@ -441,7 +441,7 @@ let listaRecetas = [
 
             
         ]
-    }/*,
+    },
     {
         "id": 4,
         "nombreBuscar": "",
