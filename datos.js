@@ -370,78 +370,87 @@ let listaRecetas = [
 
             
         ]
-    }/*,
+    },
     {
         "id": 6,
-        "nombreBuscar": "",
-        "nombre": "",
-        "descripcion": "",
-        "tipo": "",
-        "tiempoPreparacion": 20,
+        "nombreBuscar": "tartaTurron",
+        "nombre": "Tarta de turrón",
+        "descripcion": "La mejor tarta de turrón",
+        "tipo": "tartas sin horno",
+        "tiempoPreparacion": 30,
         "tiempoCocina": 10,
-        "personas": 4,
+        "personas": 6,
         "ingredientes": [
             {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
+                "cantidad": "20",
+                "medida":"unidades",
+                "nombre": "Galletas María"
             },
             {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
+                "cantidad": "40",
+                "medida":"gr",
+                "nombre": "Mantequilla"
             },
             {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
+                "cantidad": "1",
+                "medida":"chorro",
+                "nombre": "Leche"
             },
             {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
+                "cantidad": "300",
+                "medida":"gr",
+                "nombre": "Turrón blando"
             },
             {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
+                "cantidad": "300",
+                "medida":"ml",
+                "nombre": "Leche"
             },
             {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
+                "cantidad": "300",
+                "medida":"ml",
+                "nombre": "Nata para montar"
             },
             {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
+                "cantidad": "60",
+                "medida":"gr",
+                "nombre": "Azúcar"
+            },
+            {
+                "cantidad": "4",
+                "medida":"hojas",
+                "nombre": "Gelatina neutra"
             }
         ],
         "instrucciones": [
             {
                 "id": 1,
-                "info": ""
+                "info": "Derretimos la mantequilla, trituramos las galletas y lo mezclamos. Si está muy seco tirar un chorrito de leche."
             },
             {
                 "id": 2,
-                "info": ""
+                "info": "Ponemos en un molde papel vegetal por abajo y extendemos la galleta."
             },
             {
                 "id": 3,
-                "info": ""
+                "info": "En una olla ponemos la leche con el turrón y el azúcar. Y lo derretimos a fuego bajo."
             },
             {
                 "id": 4,
-                "info": ""
+                "info": "Ponemos a remojo la gelatina, y cuando el turron esté derretido añadimos la nata."
             },
             {
                 "id": 5,
-                "info": ""
+                "info": "Una vez mezclada la mata lo retiramos del fuego y añadimos la gelatina. Se mezcla todo."
+            },
+            {
+                "id": 6,
+                "info": "Lo vertemos en el molde, lo cubrimos con film y a la nevera unas 6 horas aprox."
             }
 
             
         ]
-    },
+    }/*,
     {
         "id": 4,
         "nombreBuscar": "",
