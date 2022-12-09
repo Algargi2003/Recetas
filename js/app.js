@@ -23,7 +23,7 @@ function pintaArticulos() {
                     <h5 class="card-title texto-reloj">${element.nombre}</h5>
                     <p class=" texto-reloj"><img src="./assets/icons/wall-clock.ico" class="icono-reloj"> ${element.tiempoPreparacion} min</p>
                     
-                    <button class="btn-info boton-fondo">Más info</button>
+                    
                     `;
 
         texto += `
@@ -88,7 +88,6 @@ function verCoincidencias(lista) {
                     <h5 class="card-title texto-reloj">${element.nombre}</h5>
                     <p class=" texto-reloj"><img src="./assets/icons/wall-clock.ico" class="icono-reloj"> ${element.tiempoPreparacion} min</p>
                     
-                    <button class="btn-info boton-fondo">Más info</button>
                     `;
 
         texto += `
@@ -118,15 +117,18 @@ function verSoloUna(idBuscar, comensales) {
                 <div class="card-body">
                     <h5 class="card-title">${buscada.nombre}</h5>
                     <label>Comensales: 
-                    <input type="number" placeholder="${buscada.personas}" min="1" value="${comensales}" id="${buscada.id}pers" class="ancho-comensales"></input>&nbsp<button class=" btn btn-info boton-pers"id="${buscada.id}">H</button>
+                    <input type="number" min="1" value="${comensales}" id="${buscada.id}pers" class="ancho-comensales"></input>&nbsp<button class=" btn btn-info boton-pers"id="${buscada.id}">H</button>
                     <p class="card-text"><b>Ingredientes:</b></p>
                     <ol>`;
     
 
     buscada.ingredientes.forEach((i) => {
+        let division=i.cantidad/buscada.personas;
+        let multiplicacionComensales=division*comensales;
+        let valorFinal=Math.round(multiplicacionComensales);
         texto += `
             
-                <li>${i.nombre}: ${(i.cantidad/buscada.personas)*comensales} ${i.medida}</li>
+                <li>${i.nombre}: ${valorFinal} ${i.medida}</li>
             
             `;
     });
