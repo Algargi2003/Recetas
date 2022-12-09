@@ -374,7 +374,7 @@ let listaRecetas = [
     {
         "id": 6,
         "nombreBuscar": "tartaTurron",
-        "nombre": "Tarta de turrón",
+        "nombre": "Tarta de turrón fría",
         "descripcion": "La mejor tarta de turrón",
         "tipo": "tartas sin horno",
         "tiempoPreparacion": 30,
