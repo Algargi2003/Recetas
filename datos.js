@@ -8,64 +8,44 @@ let listaRecetas = [
         "descripcion": "Buenas",
         "tipo": "dulce",
         "tiempoPreparacion": 60,
-        "tiempoCocina": 20,
         "personas": 4,
         "ingredientes": [
             {
-                "cantidad": "250",
-                "medida":"gr",
-                "nombre": "Mantequilla temp. ambiente"
+                "info": "Mantequilla temp. ambiente: 250 gr"
             },
             {
-                "cantidad": "250",
-                "medida":"gr",
-                "nombre": "Azúcar"
+                "info": "Azúcar: 250 gr"
             },
             {
-                "cantidad": "1",
-                "medida":"M",
-                "nombre": "Huevo"
+                "info": "Huevos M: 1"
             },
             {
-                "cantidad": "650",
-                "medida":"gr",
-                "nombre": "Harina"
+                "info": "Harina: 650 gr"
             },
             {
-                "cantidad": "1",
-                "medida":"cdta",
-                "nombre": "Aroma de vainilla"
+                "info": "Aroma de vainilla: 1 cdta"
             },
             {
-                "cantidad": "1",
-                "medida":"chorrito",
-                "nombre": "Leche"
+                "info": "Leche: 1 chorrito"
             },
             {
-                "cantidad": "10",
-                "medida":"gr",
-                "nombre": "Canela"
+                "info": "Canela: 10 gr"
             }
         ],
         "instrucciones": [
             {
-                "id": 1,
                 "info": "En un bol batimos la mantequilla con el azúcar"
             },
             {
-                "id": 2,
                 "info": "Añadimos el aroma de vainilla, la canela y el huevo"
             },
             {
-                "id": 3,
                 "info": "Incorporamos la harina cucharada a cucharada, y si se desmiga echamos un chorrito de leche"
             },
             {
-                "id": 4,
                 "info": "Dejamos reposar la masa estirada en la nevera 3 horas"
             },
             {
-                "id": 5,
                 "info": "Hacemos las formitas y hornear a 180º"
             }
         ]
@@ -77,72 +57,50 @@ let listaRecetas = [
         "descripcion": "Buena",
         "tipo": "dulce",
         "tiempoPreparacion": 20,
-        "tiempoCocina": 10,
         "personas": 4,
         "ingredientes": [
             {
-                "cantidad": "200",
-                "medida":"gr",
-                "nombre": "Harina"
+                "info": "Harina: 200 gr"
             },
             {
-                "cantidad": "3",
-                "medida":"cdas.",
-                "nombre": "Azúcar"
+                "info": "Azúcar: 3 cdas"
             },
             {
-                "cantidad": "4",
-                "medida":"M",
-                "nombre": "Huevo"
+                "info": "Huevos M: 4"
             },
             {
-                "cantidad": "250",
-                "medida":"ml",
-                "nombre": "Leche"
+                "info": "Leche: 250 ml"
             },
             {
-                "cantidad": "30",
-                "medida":"gr",
-                "nombre": "Mantequilla"
+                "info": "Mantequilla: 30 gr"
             },
             {
-                "cantidad": "1",
-                "medida":"pizca",
-                "nombre": "Sal"
+                "info": "Sal: 1 pizca"
             },
             {
-                "cantidad": "30",
-                "medida":"gr",
-                "nombre": "Mantequilla engrasar"
+                "info": "Mantequilla para engrasar: 30 gr"
             }
         ],
         "instrucciones": [
             {
-                "id": 1,
                 "info": "Ponemos a calentar una sartén grande y antiadherente a fuego medio."
             },
             {
-                "id": 2,
                 "info": "Separamos las yemas y las claras de los huevos."
             },
             {
-                "id": 3,
                 "info": "En un bol grande tamizamos la harina, la sal y el azúcar. Hacemos un hueco en el centro y echamos las yemas, la mantequilla o margarina derretida junto con la leche."
             },
             {
-                "id": 4,
                 "info": "Mezclamos con unas varillas, poco a poco, hasta conseguir una masa lisa y densa."
             },
             {
-                "id": 5,
                 "info": "Batimos las claras a punto de nieve y se lo incorporamos a la preparación anterior."
             },
             {
-                "id": 6,
                 "info": "Cuando la sartén este caliente, pero no en exceso, la engrasamos con un pincel y un poco de margarina."
             },
             {
-                "id": 7,
                 "info": "Con una cuchara echamos la masa para hacer las tortitas. Dejamos de 1 a 2 minutos hasta que la masa esté dorada, volteamos con una espátula y dejamos que se dore otro minuto."
             }
         ]
@@ -154,63 +112,44 @@ let listaRecetas = [
         "descripcion": "Buena",
         "tipo": "tartas sin horno",
         "tiempoPreparacion": 30,
-        "tiempoCocina": 360,
         "personas": 4,
         "ingredientes": [
             {
-                "cantidad": "300",
-                "medida":"gr",
-                "nombre": "Queso de untar"
+                "info": "Queso de untar: 300 gr"
             },
             {
-                "cantidad": "400",
-                "medida":"ml",
-                "nombre": "Nata líquida para montar"
+                "info": "Nata líquida para montar: 400 ml"
             },
             {
-                "cantidad": "24",
-                "medida":"gr",
-                "nombre": "Cuajada (2 sobres)"
+                "info": "Cuajada (2 sobres): 24 gr"
             },
             {
-                "cantidad": "1",
-                "medida":"paquete",
-                "nombre": "Galletas maria"
+                "info": "Galletas María: 1 paquete"
             },
             {
-                "cantidad": "1",
-                "medida":"vaso",
-                "nombre": "Azúcar (200 gr?)"
+                "info": "Azúcar: 1 vaso"
             },
             {
-                "cantidad": "1",
-                "medida":"vaso",
-                "nombre": "Leche"
+                "info": "Leche: 1 vaso"
             }
         ],
         "instrucciones": [
             {
-                "id": 1,
                 "info": "Preparamos un molde con las galletas trituradas mezcladas con mantequilla o en su defecto con las soletillas (mojadas en un poco de leche)"
             },
             {
-                "id": 2,
                 "info": "Batimos en un bol el queso, la nata, el azúcar y la leche (reservando un poco para disolver la cuajada)"
             },
             {
-                "id": 3,
                 "info": "Una vez esté bien batido, lo pondremos al fuego dándole vueltas durante 2 ó 3 minutos."
             },
             {
-                "id": 4,
                 "info": "Cuando empiece a hervir añadimos la cuajada, anteriormente disuelta en un poco de leche. Continuamos dando unas vueltas durante un minuto más o menos. Y lo vertemos en el molde donde tenemos preparadas las galletas."
             },
             {
-                "id": 5,
                 "info": "Lo dejamos enfriar y la ponemos en la nevera tapada con papel film durante un mínimo de 6 horas."
             },
             {
-                "id": 6,
                 "info": "La sacamos y podemos decorarla por encima con mermelada al gusto."
             }
         ]
@@ -222,81 +161,53 @@ let listaRecetas = [
         "descripcion": "Ensalada pasta",
         "tipo": "pasta",
         "tiempoPreparacion": 10,
-        "tiempoCocina": 10,
         "personas": 4,
         "ingredientes": [
             {
-                "cantidad": "400",
-                "medida":"gr",
-                "nombre": "Hélices vegetales"
+                "info": "Hélices: 400 gr"
             },
             {
-                "cantidad": "1",
-                "medida":"lata",
-                "nombre": "Maíz dulce"
+                "info": "Maíz dulce: 1 lata"
             },
             {
-                "cantidad": "1",
-                "medida":"lata",
-                "nombre": "Guisantes"
+                "info": "Guisantes: 1 lata"
             },
             {
-                "cantidad": "1",
-                "medida":"lata",
-                "nombre": "Olivas rellenas"
+                "info": "Olivas rellenas: 1 lata"
             },
             {
-                "cantidad": "4",
-                "medida":"unidades",
-                "nombre": "Anchoas"
+                "info": "Anchoas: 4 unidades"
             },
             {
-                "cantidad": "2",
-                "medida":"M",
-                "nombre": "Huevos picados"
+                "info": "Huevos picados M: 2"
             },
             {
-                "cantidad": "1",
-                "medida":"o más",
-                "nombre": "Lechuga"
+                "info": "Lechuga: 1 o más"
             },
             {
-                "cantidad": "3",
-                "medida":"cucharadas",
-                "nombre": "Vinagre de manzana (para salsa)"
+                "info": "Vinagre de manzana (para salsa): 3 cucharadas"
             },
             {
-                "cantidad": "1",
-                "medida":"cda",
-                "nombre": "Azúcar"
+                "info": "Azúcar: 1 cda"
             },
             {
-                "cantidad": "1",
-                "medida":"cda",
-                "nombre": "Mostaza"
+                "info": "Mostaza: 1 cda"
             },
             {
-                "cantidad": "1",
-                "medida":"pizca",
-                "nombre": "Sal"
+                "info": "Sal: 1 pizca"
             },
             {
-                "cantidad": "6",
-                "medida":"cdas",
-                "nombre": "Aceite de oliva"
+                "info": "Aceite de oliva: 6 cdas"
             }
         ],
         "instrucciones": [
             {
-                "id": 1,
                 "info": "Hervimos las hélices durante los minutos que nos indique el fabricante, en agua hirviendo con sal. Mientras podemos cocer también los huevos ( para que estén en su punto exacto de cocción los cocemos 10 minutos )"
             },
             {
-                "id": 2,
                 "info": "Preparamos todos los ingredientes de la salsa en un bote con tapa y los movemos enérgicamente."
             },
             {
-                "id": 3,
                 "info": "En un bol vamos añadiendo todos los ingredientes, junto con las hélices, los huevos y la salsa. Lo removemos bien y ya está listo para servir."
             }
         ]
@@ -308,63 +219,44 @@ let listaRecetas = [
         "descripcion": "Pasta buena",
         "tipo": "pasta",
         "tiempoPreparacion": 40,
-        "tiempoCocina": 10,
         "personas": 4,
         "ingredientes": [
             {
-                "cantidad": "350",
-                "medida":"gr",
-                "nombre": "Tortellinis"
+                "info": "Tortellinis: 350 gr"
             },
             {
-                "cantidad": "50",
-                "medida":"gr",
-                "nombre": "Mantequilla"
+                "info": "Mantequilla: 50 gr"
             },
             {
-                "cantidad": "500",
-                "medida":"gr",
-                "nombre": "Longanizas"
+                "info": "Longanizas: 500 gr"
             },
             {
-                "cantidad": "1",
-                "medida":"entera",
-                "nombre": "Cebolla"
+                "info": "Cebolla: 1 entera"
             },
             {
-                "cantidad": "1",
-                "medida":"entera",
-                "nombre": "Manzana golden"
+                "info": "Manzana golden: 1 entera"
             },
             {
-                "cantidad": "3",
-                "medida":"enteros",
-                "nombre": "Tomates maduros"
+                "info": "Tomates maduros: 3 enteros"
             }
         ],
         "instrucciones": [
             {
-                "id": 1,
                 "info": "Hervir la pasta el tiempo indicado por el fabricante."
             },
             {
-                "id": 2,
                 "info": "En una sartén fundimos la mantequilla y añadimos las longanizas cortadas a trocitos no muy grandes. Una vez doradas las sacamos de la sartén y reservamos."
             },
             {
-                "id": 3,
                 "info": "En la misma sartén para aprovechar la grasita de las longanizas pochamos lentamente la cebolla para que caramelice."
             },
             {
-                "id": 4,
                 "info": "Cuando ya esté doradita la cebolla añadimos la manzana a trocitos y le damos una vueltecitas para que se dore un poquito."
             },
             {
-                "id": 5,
                 "info": "Una vez doradita le añadimos los tomates, salpimentamos y añadimos una cucharadita de azúcar para quitar la acidez de los tomates. Dejamos que se hagan a fuego lento durante unos 20 minutos."
             },
             {
-                "id": 6,
                 "info": "Cuando veamos que la salsa ya está hecha añadimos las longanizas y la pasta. Le damos unas vueltas y servimos. Podemos añadir por encima un poco de orégano, albahaca fresca o seca, esto ya queda al gusto del consumidor."
             }
 
@@ -378,852 +270,52 @@ let listaRecetas = [
         "descripcion": "La mejor tarta de turrón",
         "tipo": "tartas sin horno",
         "tiempoPreparacion": 30,
-        "tiempoCocina": 10,
         "personas": 6,
         "ingredientes": [
             {
-                "cantidad": "20",
-                "medida":"unidades",
-                "nombre": "Galletas María"
+                "info": "Galletas María: 20 unidades"
             },
             {
-                "cantidad": "40",
-                "medida":"gr",
-                "nombre": "Mantequilla"
+                "info": "Mantequilla: 40 gr"
             },
             {
-                "cantidad": "1",
-                "medida":"chorro",
-                "nombre": "Leche"
+                "info": "Leche: 1 chorro"
             },
             {
-                "cantidad": "300",
-                "medida":"gr",
-                "nombre": "Turrón blando"
+                "info": "Turrón blando: 300 gr"
             },
             {
-                "cantidad": "300",
-                "medida":"ml",
-                "nombre": "Leche"
+                "info": "Leche: 300 ml"
             },
             {
-                "cantidad": "300",
-                "medida":"ml",
-                "nombre": "Nata para montar"
+                "info": "Nata para montar: 300 ml"
             },
             {
-                "cantidad": "60",
-                "medida":"gr",
-                "nombre": "Azúcar"
+                "info": "Azúcar: 60 gr"
             },
             {
-                "cantidad": "4",
-                "medida":"hojas",
-                "nombre": "Gelatina neutra"
+                "info": "Gelatina neutra: 4 hojas"
             }
         ],
         "instrucciones": [
             {
-                "id": 1,
                 "info": "Derretimos la mantequilla, trituramos las galletas y lo mezclamos. Si está muy seco tirar un chorrito de leche."
             },
             {
-                "id": 2,
                 "info": "Ponemos en un molde papel vegetal por abajo y extendemos la galleta."
             },
             {
-                "id": 3,
                 "info": "En una olla ponemos la leche con el turrón y el azúcar. Y lo derretimos a fuego bajo."
             },
             {
-                "id": 4,
                 "info": "Ponemos a remojo la gelatina, y cuando el turron esté derretido añadimos la nata."
             },
             {
-                "id": 5,
                 "info": "Una vez mezclada la mata lo retiramos del fuego y añadimos la gelatina. Se mezcla todo."
             },
             {
-                "id": 6,
                 "info": "Lo vertemos en el molde, lo cubrimos con film y a la nevera unas 6 horas aprox."
             }
-
-            
         ]
-    }/*,
-    {
-        "id": 4,
-        "nombreBuscar": "",
-        "nombre": "",
-        "descripcion": "",
-        "tipo": "",
-        "tiempoPreparacion": 20,
-        "tiempoCocina": 10,
-        "personas": 4,
-        "ingredientes": [
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            }
-        ],
-        "instrucciones": [
-            {
-                "id": 1,
-                "info": ""
-            },
-            {
-                "id": 2,
-                "info": ""
-            },
-            {
-                "id": 3,
-                "info": ""
-            },
-            {
-                "id": 4,
-                "info": ""
-            },
-            {
-                "id": 5,
-                "info": ""
-            }
-
-            
-        ]
-    },
-    {
-        "id": 4,
-        "nombreBuscar": "",
-        "nombre": "",
-        "descripcion": "",
-        "tipo": "",
-        "tiempoPreparacion": 20,
-        "tiempoCocina": 10,
-        "personas": 4,
-        "ingredientes": [
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            }
-        ],
-        "instrucciones": [
-            {
-                "id": 1,
-                "info": ""
-            },
-            {
-                "id": 2,
-                "info": ""
-            },
-            {
-                "id": 3,
-                "info": ""
-            },
-            {
-                "id": 4,
-                "info": ""
-            },
-            {
-                "id": 5,
-                "info": ""
-            }
-
-            
-        ]
-    },
-    {
-        "id": 4,
-        "nombreBuscar": "",
-        "nombre": "",
-        "descripcion": "",
-        "tipo": "",
-        "tiempoPreparacion": 20,
-        "tiempoCocina": 10,
-        "personas": 4,
-        "ingredientes": [
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            }
-        ],
-        "instrucciones": [
-            {
-                "id": 1,
-                "info": ""
-            },
-            {
-                "id": 2,
-                "info": ""
-            },
-            {
-                "id": 3,
-                "info": ""
-            },
-            {
-                "id": 4,
-                "info": ""
-            },
-            {
-                "id": 5,
-                "info": ""
-            }
-
-            
-        ]
-    },
-    {
-        "id": 4,
-        "nombreBuscar": "",
-        "nombre": "",
-        "descripcion": "",
-        "tipo": "",
-        "tiempoPreparacion": 20,
-        "tiempoCocina": 10,
-        "personas": 4,
-        "ingredientes": [
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            }
-        ],
-        "instrucciones": [
-            {
-                "id": 1,
-                "info": ""
-            },
-            {
-                "id": 2,
-                "info": ""
-            },
-            {
-                "id": 3,
-                "info": ""
-            },
-            {
-                "id": 4,
-                "info": ""
-            },
-            {
-                "id": 5,
-                "info": ""
-            }
-
-            
-        ]
-    },
-    {
-        "id": 4,
-        "nombreBuscar": "",
-        "nombre": "",
-        "descripcion": "",
-        "tipo": "",
-        "tiempoPreparacion": 20,
-        "tiempoCocina": 10,
-        "personas": 4,
-        "ingredientes": [
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            }
-        ],
-        "instrucciones": [
-            {
-                "id": 1,
-                "info": ""
-            },
-            {
-                "id": 2,
-                "info": ""
-            },
-            {
-                "id": 3,
-                "info": ""
-            },
-            {
-                "id": 4,
-                "info": ""
-            },
-            {
-                "id": 5,
-                "info": ""
-            }
-
-            
-        ]
-    }{
-        "id": 4,
-        "nombreBuscar": "",
-        "nombre": "",
-        "descripcion": "",
-        "tipo": "",
-        "tiempoPreparacion": 20,
-        "tiempoCocina": 10,
-        "personas": 4,
-        "ingredientes": [
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            }
-        ],
-        "instrucciones": [
-            {
-                "id": 1,
-                "info": ""
-            },
-            {
-                "id": 2,
-                "info": ""
-            },
-            {
-                "id": 3,
-                "info": ""
-            },
-            {
-                "id": 4,
-                "info": ""
-            },
-            {
-                "id": 5,
-                "info": ""
-            }
-
-            
-        ]
-    }{
-        "id": 4,
-        "nombreBuscar": "",
-        "nombre": "",
-        "descripcion": "",
-        "tipo": "",
-        "tiempoPreparacion": 20,
-        "tiempoCocina": 10,
-        "personas": 4,
-        "ingredientes": [
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            }
-        ],
-        "instrucciones": [
-            {
-                "id": 1,
-                "info": ""
-            },
-            {
-                "id": 2,
-                "info": ""
-            },
-            {
-                "id": 3,
-                "info": ""
-            },
-            {
-                "id": 4,
-                "info": ""
-            },
-            {
-                "id": 5,
-                "info": ""
-            }
-
-            
-        ]
-    }{
-        "id": 4,
-        "nombreBuscar": "",
-        "nombre": "",
-        "descripcion": "",
-        "tipo": "",
-        "tiempoPreparacion": 20,
-        "tiempoCocina": 10,
-        "personas": 4,
-        "ingredientes": [
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            }
-        ],
-        "instrucciones": [
-            {
-                "id": 1,
-                "info": ""
-            },
-            {
-                "id": 2,
-                "info": ""
-            },
-            {
-                "id": 3,
-                "info": ""
-            },
-            {
-                "id": 4,
-                "info": ""
-            },
-            {
-                "id": 5,
-                "info": ""
-            }
-
-            
-        ]
-    }{
-        "id": 4,
-        "nombreBuscar": "",
-        "nombre": "",
-        "descripcion": "",
-        "tipo": "",
-        "tiempoPreparacion": 20,
-        "tiempoCocina": 10,
-        "personas": 4,
-        "ingredientes": [
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            }
-        ],
-        "instrucciones": [
-            {
-                "id": 1,
-                "info": ""
-            },
-            {
-                "id": 2,
-                "info": ""
-            },
-            {
-                "id": 3,
-                "info": ""
-            },
-            {
-                "id": 4,
-                "info": ""
-            },
-            {
-                "id": 5,
-                "info": ""
-            }
-
-            
-        ]
-    }{
-        "id": 4,
-        "nombreBuscar": "",
-        "nombre": "",
-        "descripcion": "",
-        "tipo": "",
-        "tiempoPreparacion": 20,
-        "tiempoCocina": 10,
-        "personas": 4,
-        "ingredientes": [
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            }
-        ],
-        "instrucciones": [
-            {
-                "id": 1,
-                "info": ""
-            },
-            {
-                "id": 2,
-                "info": ""
-            },
-            {
-                "id": 3,
-                "info": ""
-            },
-            {
-                "id": 4,
-                "info": ""
-            },
-            {
-                "id": 5,
-                "info": ""
-            }
-
-            
-        ]
-    }{
-        "id": 4,
-        "nombreBuscar": "",
-        "nombre": "",
-        "descripcion": "",
-        "tipo": "",
-        "tiempoPreparacion": 20,
-        "tiempoCocina": 10,
-        "personas": 4,
-        "ingredientes": [
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            },
-            {
-                "cantidad": "",
-                "medida":"",
-                "nombre": ""
-            }
-        ],
-        "instrucciones": [
-            {
-                "id": 1,
-                "info": ""
-            },
-            {
-                "id": 2,
-                "info": ""
-            },
-            {
-                "id": 3,
-                "info": ""
-            },
-            {
-                "id": 4,
-                "info": ""
-            },
-            {
-                "id": 5,
-                "info": ""
-            }
-
-            
-        ]
-    }*/
+    }
 ]

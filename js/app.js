@@ -96,6 +96,7 @@ function verCoincidencias(lista) {
         </div>
         
         `;
+
     });
     // texto+=`</div>`;
 
@@ -116,8 +117,6 @@ function verSoloUna(idBuscar, comensales) {
                 <img src="./assets/img/${buscada.nombreBuscar}.jpg" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title">${buscada.nombre}</h5>
-                    <label>Comensales: 
-                    <input type="number" min="1" value="${comensales}" id="${buscada.id}pers" class="ancho-comensales"></input>&nbsp<button class=" btn btn-info boton-pers"id="${buscada.id}">H</button>
                     <p class="card-text"><b>Ingredientes:</b></p>
                     <ol>`;
     
@@ -128,9 +127,10 @@ function verSoloUna(idBuscar, comensales) {
         let valorFinal=Math.round(multiplicacionComensales);
         texto += `
             
-                <li>${i.nombre}: ${valorFinal} ${i.medida}</li>
+                <li>${i.info}</li>
             
             `;
+            
     });
 
     texto += `</ol>
