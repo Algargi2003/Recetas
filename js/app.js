@@ -118,7 +118,7 @@ function verSoloUna(idBuscar, comensales) {
                 <div class="card-body">
                     <h5 class="card-title">${buscada.nombre}</h5>
                     <p class="card-text"><b>Ingredientes:</b></p>
-                    <ol>`;
+                    <ul>`;
     
 
     buscada.ingredientes.forEach((i) => {
@@ -133,7 +133,7 @@ function verSoloUna(idBuscar, comensales) {
             
     });
 
-    texto += `</ol>
+    texto += `</ul>
                 <p class="card-text"><b>Preparación:</b></p>
                 <ol>`;
     buscada.instrucciones.forEach((x) => {
@@ -165,14 +165,14 @@ function botonCom(){
             verSoloUna(articulo.id, inputPersonas);
         });
     });
-    let botonVolver = document.getElementById("botonVolv");
-    botonVolver.addEventListener("click", function(){
-        pintaArticulos();
-        document.getElementById("busqueda").value="";
-    });
+    // let botonVolver = document.getElementById("botonVolv");
+    // botonVolver.addEventListener("click", function(){
+    //     verCategorias();
+    //     document.getElementById("busqueda").value="";
+    // });
     let botonReset = document.getElementById("reinicio");
     botonReset.addEventListener("click", function(){
-        pintaArticulos();
+        verCategorias();
         document.getElementById("busqueda").value="";
     })
 }
@@ -189,8 +189,109 @@ function enterBoton(){
         obtenerBuscada();
     }
 }
-window.onload = () => {
-    pintaArticulos();
-    enterBoton();
+let listaCategorias = ["salado", "dulce","japones","chino","valenciano","barbacoa"];
+
+function verCategorias(){
+    let contenedor = document.getElementById("contenedor");
+    let texto = `<div class="columna-triple prueba-columna row row-cols-1  ">`;
+
+    listaCategorias.forEach((element) => {
+        texto += `
+        <div class="col micol">
+            <div id='${element}' class="card botones-categoria">
+                <img src="./assets/img/${element}.jpg" class="card-img-top">
+                <div class="text-center">${element}</div>
+                    
+                    `;
+
+        texto += `
+                
+            </div>
+        </div>
+        
+        `;
+    });
+    texto+=`</div>`;
+
+    contenedor.innerHTML = texto;
+    funcionBotonCat();
     
+}
+function verPorCategoria(categoria){
+    let contenedor = document.getElementById("contenedor");
+    
+    let texto = `<div class="columna-doble prueba-columna row row-cols-1  ">`;
+    // //let texto="";
+
+    // let nuevalistaRecetas = lista.sort(sortArray);
+    // nuevalistaRecetas.forEach((element) => {
+    //     texto += `
+    //     <div class="col micol">
+    //         <div id='${element.id}' class="card sin-bordes">
+    //             <img src="./assets/img/${element.nombreBuscar}.jpg" class="card-img-top">
+    //             <div class="card-body prueba">
+    //                 <h5 class="card-title texto-reloj">${element.nombre}</h5>
+    //                 <p class=" texto-reloj"><img src="./assets/icons/wall-clock.ico" class="icono-reloj"> ${element.tiempoPreparacion} min</p>
+                    
+    //                 `;
+
+    //     texto += `
+    //             </div>
+    //         </div>
+    //     </div>
+        
+    //     `;
+
+    // });
+    let arrayBueno=[];
+    listaRecetas.forEach((element) => {
+        if (element.tipo==categoria) {
+            arrayBueno.push(element);
+        }
+    });
+    // listaNuevaCategoria.forEach(i => console.log(i));
+    arrayBueno.forEach(element => {
+        texto += `
+             <div class="col micol">
+                 <div id='${element.id}' class="card sin-bordes">
+                     <img src="./assets/img/${element.nombreBuscar}.jpg" class="card-img-top">
+                     <div class="card-body prueba">
+                         <h5 class="card-title texto-reloj">${element.nombre}</h5>
+                         <p class=" texto-reloj"><img src="./assets/icons/wall-clock.ico" class="icono-reloj"> ${element.tiempoPreparacion} min</p>
+                  
+                         `;
+             texto += `
+                     </div>
+                 </div>
+             </div>
+      
+             `;
+    });
+    contenedor.innerHTML = texto;
+    ponFuncionBoton();
+    botonCom();
+    // switch (categoria) {
+    //     case "salado":
+            
+    //         break;
+    
+    //     default:
+    //         break;
+    // }
+}
+function funcionBotonCat(){
+    let boton = document.getElementsByClassName("botones-categoria");
+    let botonesArray = [...boton];
+    botonesArray.forEach((e) => {
+        let cat = listaCategorias.find((i) => i == e.id);
+        e.addEventListener("click", function () {
+            // verPorCategoria(receta.nombreBuscar);
+            verPorCategoria(cat);
+        });
+    });
+}
+window.onload = () => {
+    // pintaArticulos();
+    enterBoton();
+    verCategorias();
 };

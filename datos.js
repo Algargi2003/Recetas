@@ -110,7 +110,7 @@ let listaRecetas = [
         "nombreBuscar": "tartaDeQuesoFria",
         "nombre": "Tarta de queso fría",
         "descripcion": "Buena",
-        "tipo": "tartas sin horno",
+        "tipo": "dulce",
         "tiempoPreparacion": 30,
         "personas": 4,
         "ingredientes": [
@@ -159,7 +159,7 @@ let listaRecetas = [
         "nombreBuscar": "helicesConVinagreta",
         "nombre": "Hélices con Vinagreta",
         "descripcion": "Ensalada pasta",
-        "tipo": "pasta",
+        "tipo": "salado",
         "tiempoPreparacion": 10,
         "personas": 4,
         "ingredientes": [
@@ -217,7 +217,7 @@ let listaRecetas = [
         "nombreBuscar": "tortelliniConQuesoYLonganizas",
         "nombre": "Tortellinis con longaniza",
         "descripcion": "Pasta buena",
-        "tipo": "pasta",
+        "tipo": "salado",
         "tiempoPreparacion": 40,
         "personas": 4,
         "ingredientes": [
@@ -268,7 +268,7 @@ let listaRecetas = [
         "nombreBuscar": "tartaTurron",
         "nombre": "Tarta de turrón fría",
         "descripcion": "La mejor tarta de turrón",
-        "tipo": "tartas sin horno",
+        "tipo": "dulce",
         "tiempoPreparacion": 30,
         "personas": 6,
         "ingredientes": [

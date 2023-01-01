@@ -52,6 +52,11 @@ html,body{
 
     height: 100%;
 }
+.botones-categoria{
+    border: none;
+
+    height: 100%;
+}
 
 .columna-doble{
     max-width: 1200px;
@@ -70,6 +75,11 @@ html,body{
     width: 100%;
     height: auto;
 }
+.columna-triple{
+    display: grid;
+    margin: auto;
+    grid-template-columns:  repeat(5, 1fr)
+}
 
 @media (max-width: 600px)  {
     #busqueda{
@@ -78,6 +88,11 @@ html,body{
     .columna-doble{
         margin: auto;
         grid-template-columns: repeat(2, 1fr);
+    }
+    .columna-triple{
+        display: grid;
+        margin: auto;
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
